@@ -1,0 +1,44 @@
+/* Definindo a fonte e a cor de fundo da página */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* Estilo para os links */
+a {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    font-size: 18px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+/* Efeito de hover para os links */
+a:hover {
+    background-color: #0056b3;
+    transform: scale(1.05); /* Efeito de aumentar ligeiramente o link */
+}
+
+/* Adicionando um título para a página inicial */
+h1 {
+    color: #333;
+    font-size: 2em;
+    margin-top: 40px;
+}
+
+/* Estilo para o layout do conteúdo */
+.container {
+    margin-top: 40px;
+}
+
+/* Alinhar os links em linha, com o texto no centro */
+a {
+    text-align: center;
+}
